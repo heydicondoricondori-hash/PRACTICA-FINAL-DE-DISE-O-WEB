@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "nombre": "Ramo de 24 Rosas Rojas Clásico",
+    "descripcion": "Rosas rojas frescas de exportación envueltas en papel coreano elegante con cinta de raso.",
+    "precio": 250,
+    "categoria": "Ramos",
+    "stock": 12,
+    "destacado": true,
+    "imagen": "img/producto1.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Box Primaveral de Girasoles",
+    "descripcion": "Caja cilíndrica de lujo con 10 girasoles radiantes y follaje de eucalipto aromático.",
+    "precio": 220,
+    "categoria": "Arreglos en Caja",
+    "stock": 8,
+    "destacado": true,
+    "imagen": "img/producto2.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Orquídea Phalaenopsis Blanca",
+    "descripcion": "Planta natural de doble vara en maceta de cerámica blanca, ideal para interiores.",
+    "precio": 340,
+    "categoria": "Plantas",
+    "stock": 4,
+    "destacado": true,
+    "imagen": "img/producto3.jpg"
+  },
+  {
+    "id": 4,
+    "nombre": "Ramo Silvestre Pastel",
+    "descripcion": "Combinación delicada de astromelias, rosas rosadas, claveles y gypsophila.",
+    "precio": 180,
+    "categoria": "Ramos",
+    "stock": 15,
+    "destacado": true,
+    "imagen": "img/producto4.jpg"
+  },
+  {
+    "id": 5,
+    "nombre": "Centro de Mesa Elegancia",
+    "descripcion": "Arreglo horizontal con lirios blancos, rosas crema y velas decorativas para eventos.",
+    "precio": 380,
+    "categoria": "Eventos",
+    "stock": 0,
+    "destacado": false,
+    "imagen": "img/producto5.jpg"
+  },
+  {
+    "id": 6,
+    "nombre": "Tulipanes Holandeses Multicolor",
+    "descripcion": "Ramo exclusivo de 15 tulipanes frescos importados en tonos amarillos, rojos y lilas.",
+    "precio": 310,
+    "categoria": "Ramos",
+    "stock": 6,
+    "destacado": false,
+    "imagen": "img/producto6.jpg"
+  },
+  {
+    "id": 7,
+    "nombre": "Terrario de Suculentas en Cristal",
+    "descripcion": "Mini ecosistema artesanal con 5 variedades de suculentas y piedras decorativas.",
+    "precio": 140,
+    "categoria": "Plantas",
+    "stock": 18,
+    "destacado": false,
+    "imagen": "img/producto7.jpg"
+  },
+  {
+    "id": 8,
+    "nombre": "Corazón de Rosas y Ferrero",
+    "descripcion": "Caja en forma de corazón con 30 rosas rojas y 12 bombones Ferrero Rocher.",
+    "precio": 420,
+    "categoria": "Arreglos en Caja",
+    "stock": 3,
+    "destacado": false,
+    "imagen": "img/producto8.jpg"
+  },
+  {
+    "id": 9,
+    "nombre": "Ramo de Novia Cascada Blanca",
+    "descripcion": "Diseño nupcial artesanal con rosas blancas, fresias y follaje verde fino.",
+    "precio": 450,
+    "categoria": "Eventos",
+    "stock": 5,
+    "destacado": false,
+    "imagen": "img/producto9.jpg"
+  },
+  {
+    "id": 10,
+    "nombre": "Bonsái Ficus Ginseng 5 Años",
+    "descripcion": "Árbol bonsái natural en maceta esmaltada, incluye guía básica de riego.",
+    "precio": 290,
+    "categoria": "Plantas",
+    "stock": 7,
+    "destacado": false,
+    "imagen": "img/producto10.jpg"
+  },
+  {
+    "id": 11,
+    "nombre": "Peonías Rosadas de Temporada",
+    "descripcion": "Ramo romántico de 12 peonías fragantes con envoltura de lino natural.",
+    "precio": 390,
+    "categoria": "Ramos",
+    "stock": 0,
+    "destacado": false,
+    "imagen": "img/producto11.jpg"
+  },
+  {
+    "id": 12,
+    "nombre": "Canasta Campestre de Margaritas",
+    "descripcion": "Canasta de mimbre tejida a mano repleta de margaritas blancas y gerberas.",
+    "precio": 195,
+    "categoria": "Canastas",
+    "stock": 9,
+    "destacado": false,
+    "imagen": "img/producto12.jpg"
+  },
+  {
+    "id": 13,
+    "nombre": "Monstera Deliciosa Grande",
+    "descripcion": "Planta tropical Costilla de Adán de 80cm de altura en maceta minimalista.",
+    "precio": 260,
+    "categoria": "Plantas",
+    "stock": 10,
+    "destacado": false,
+    "imagen": "img/producto13.jpg"
+  },
+  {
+    "id": 14,
+    "nombre": "Box Dulce Amanecer con Peluche",
+    "descripcion": "Arreglo de gerberas naranjas, rosas amarillas y un osito de peluche suave.",
+    "precio": 275,
+    "categoria": "Arreglos en Caja",
+    "stock": 2,
+    "destacado": false,
+    "imagen": "img/producto14.jpg"
+  },
+  {
+    "id": 15,
+    "nombre": "Corona Fúnebre Paz Eterna",
+    "descripcion": "Arreglo solemne de pie con gladiolos, crisantemos blancos y cinta personalizada.",
+    "precio": 480,
+    "categoria": "Eventos",
+    "stock": 11,
+    "destacado": false,
+    "imagen": "img/producto15.jpg"
+  }
+]

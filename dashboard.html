@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard - Florería Bella FlorSaly</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <header>
+    <a href="index.html" class="logo">
+      <img src="img/logo.png" alt="Logo Florería Bella FlorSaly"> Florería Bella FlorSaly
+    </a>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li><a href="dashboard.html" class="activo">Dashboard</a></li>
+        <li><a href="consulta.html">Consulta</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="carrito.html">🛒 Carrito <span id="contador-carrito" class="badge-carrito">0</span></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap;">
+      <h1>📊 Dashboard de Inventario Floral</h1>
+      <p id="fecha-actualizacion" style="color:#64748b; font-weight:600;"></p>
+    </div>
+
+    <div class="grid-kpis">
+      <div class="kpi-card"><h3>Total Arreglos</h3><p id="kpi-total">0</p></div>
+      <div class="kpi-card"><h3>Categorías</h3><p id="kpi-categorias">0</p></div>
+      <div class="kpi-card"><h3>Valor Inventario</h3><p id="kpi-valor">0 Bs</p></div>
+      <div class="kpi-card" style="border-color: var(--verde);"><h3>Disponibles</h3><p id="kpi-disponibles">0</p></div>
+      <div class="kpi-card" style="border-color: var(--acento);"><h3>Bajo Stock (&le;4)</h3><p id="kpi-bajo">0</p></div>
+      <div class="kpi-card" style="border-color: var(--rojo);"><h3>Agotados</h3><p id="kpi-agotados">0</p></div>
+    </div>
+
+    <div class="grid-graficos">
+      <div class="grafico-box">
+        <h3>Productos por Categoría</h3>
+        <div id="graficoCategorias" style="margin-top: 1rem;"></div>
+      </div>
+      <div class="grafico-box">
+        <h3>Distribución de Stock</h3>
+        <div id="graficoStock" style="margin-top: 1rem;"></div>
+      </div>
+    </div>
+
+    <div class="tabla-box">
+      <h3>⚠️ Alerta: Arreglos con Bajo Inventario o Agotados</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Producto</th>
+            <th>Categoría</th>
+            <th>Precio (Bs)</th>
+            <th>Stock Actual</th>
+          </tr>
+        </thead>
+        <tbody id="tabla-bajo-stock"></tbody>
+      </table>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Florería Bella FlorSaly - Oruro, Bolivia | Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+  <script src="js/dashboard.js"></script>
+</body>
+</html>
